@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ropa shop productos</title>
+    <!--Estilos,icono y tipografias -->
+    <link rel="shortcut icon" href="../imagenes/logo.png" />
+    <link rel="stylesheet" href="../estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body__ropa">
+    <!--Logo,input de busqueda,icono y barra de navegacion -->
+    <header class="header">
+      <img class="header__logo" src="../imagenes/logo.png" alt="Logo" />
+      <div class="header__div">
+        <input class="header__buscar" type="text" placeholder="Buscar" />
+        <img class="header__iconos" src="../imagenes/buscar.png" alt="" />
+        <img
+          class="header__iconos--compras"
+          src="../imagenes/carro.png"
+          alt=""
+        />
+      </div>
+      <nav class="header__nav">
+        <ul>
+          <li><a href="../index.html">inicio</a></li>
+          <li><a href="ropa.html">productos</a></li>
+          <li><a href="../html/calzados.html">zapatillas</a></li>
+          <li><a href="../html/hombre.html">hombre</a></li>
+          <li><a href="../html/mujer.html">mujer</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- section catalogo de ropa con descuentos  -->
+      <section class="descuentos">
+        <div class="titulo">
+          <h2 class="descuentos__h2">NUESTROS DESCUENTOS</h2>
+          <img
+            class="rebaja"
+            src="../imagenes/karolina-grabowska-5625040.jpg"
+            alt="rebajas"
+          />
+        </div>
+        <div class="contenedor__ropa">
+          <div class="descuento__contenedor">
+            <div>
+              <img
+                class="descuentos__precios"
+                src="../imagenes/combo.jpg"
+                alt="combo short"
+              />
+              <h3 class="descuentos__texto">combo dos short</h3>
+              <h3 class="descuentos__valor">$2950</h3>
+            </div>
+            <div>
+              <img
+                class="descuentos__precios"
+                src="../imagenes/zapatillas mujer descuento.jpg"
+                alt="zapatilla mujer"
+              />
+              <h3 class="descuentos__texto">zapatillas de mujer</h3>
+              <h3 class="descuentos__valor">$2200</h3>
+            </div>
+            <div>
+              <img
+                class="descuentos__precios"
+                src="../imagenes/musculosa hombre.jpg"
+                alt="musculosa hombre"
+              />
+              <h3 class="descuentos__texto">musculosa hombre</h3>
+              <h3 class="descuentos__valor">$950</h3>
+            </div>
+            <div>
+              <img
+                class="descuentos__precios"
+                src="../imagenes/vestido negro.jpg"
+                alt="vestido negro"
+              />
+              <h3 class="descuentos__texto">vestido negro</h3>
+              <h3 class="descuentos__valor">$3500</h3>
+            </div>
+            <div>
+              <img
+                class="descuentos__precios"
+                src="../imagenes/remera naranja mujer.jpg"
+                alt="remera naranja mujer"
+              />
+              <h3 class="descuentos__texto">remera naranja mujer</h3>
+              <h3 class="descuentos__valor">$1600</h3>
+            </div>
+            <div>
+              <img
+                class="descuentos__precios"
+                src="../imagenes/combo mujer.jpg"
+                alt="combo mujer"
+              />
+              <h3 class="descuentos__texto">combo mujer</h3>
+              <h3 class="descuentos__valor">$4500</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--section seleccion de precios de los productos -->
+      <div class="monto">
+        <select class="monto__precio" name="precio">
+          <option value="">seleccione un rango de precios</option>
+          <option value="$500">$0-500</option>
+          <option value="$1000">$500-1000</option>
+          <option value="$2000">$1000-2000</option>
+          <option value="$8000">$2000-8000</option>
+        </select>
+      </div>
+    </main>
+    <aside>
+      <img
+        class="descuento__rebaja"
+        src="../imagenes/pexels-artem-beliaikin-2292953.jpg"
+        alt="descuentos del %50"
+      />
+    </aside>
+    <!--copyright,ubicacion,contactos y redes sociales -->
+    <footer class="footer">
+      <h4 class="footer__h4">
+        copyright 2021© - Todos los derechos reservados
+      </h4>
+      <a
+        class="footer__a--active"
+        href="https://es-la.facebook.com/"
+        target="_blank"
+      >
+        <img
+          class="footer__redes"
+          src="../imagenes/facebook.png"
+          alt="facebook de la pagina"
+      /></a>
+      <a
+        class="footer__a"
+        href="https://www.instagram.com/?hl=es-la"
+        target="_blank"
+      >
+        <img
+          class="footer__redes"
+          src="../imagenes/instagram.png"
+          alt="instagram de la pagina"
+        />
+      </a>
+      <img
+        class="footer__a--wsp"
+        src="../imagenes/whatsapp.png"
+        alt="wasap logo"
+      />
+      <img
+        class="footer__a--ubicacion"
+        src="../imagenes/ubicacion.png"
+        alt="ubicacion"
+      />
+      <p class="footer__ubicacion">ubicacion:</p>
+      <p class="footer__ubicacion--2">Córdoba,Argentina</p>
+      <p class="footer__parrafo">contactanos:</p>
+      <p class="footer__parrafo">whatsapp:351 736-9802</p>
+    </footer>
+  </body>
+</html>

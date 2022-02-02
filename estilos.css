@@ -1,0 +1,2414 @@
+/* ============ resets y tipografias ==============   */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", "Chakra Petch", "Oswald", sans-serif;
+}
+
+@font-face {
+  font-family: Tungsten-Bold;
+  src: url("./tipografia/Tungsten-Bold.ttf");
+}
+
+/* ==================  MOBILE ==================  */
+
+/* ======== Estilos Generales ======== */
+
+/* === pagina index === */
+.header {
+  background-color: #d4f0f0;
+}
+.header__logo {
+  /*box model*/
+  height: 80px;
+}
+.header__buscar {
+  /*position*/
+  position: relative;
+  bottom: 60px;
+  right: 50px;
+  /*box model*/
+  padding: 0 20px;
+  height: 30px;
+  /*texto*/
+  font-size: 10px;
+  /*visuales*/
+  border: solid #d4f0f0 2px;
+  border-radius: 30px;
+}
+.header__iconos {
+  /*position*/
+  position: relative;
+  bottom: 55px;
+  right: 75px;
+  height: 20px;
+}
+.header__iconos--compras {
+  /*position*/
+  position: relative;
+  bottom: 56px;
+  right: 40px;
+  height: 20px;
+}
+a {
+  /*texto*/
+  font-size: 12px;
+  /*visuales*/
+  text-decoration: none;
+  color: grey;
+}
+li {
+  border-radius: 3px;
+}
+ul li {
+  /*box model*/
+  width: 70px;
+  /*texto*/
+  text-align: center;
+  /*visuales*/
+  border: solid #79bf34 2px;
+  background-color: #a4e887;
+  list-style: none;
+}
+/*varios*/
+ul li :hover {
+  /*visuales*/
+  color: #e8eded;
+  background-color: #18db46;
+}
+
+.header__h1 {
+  /*box model*/
+  padding: 30px;
+  width: 95%;
+  margin: 5px;
+  /*texto*/
+  font-family: "Chackra Petch";
+  text-align: center;
+  font-size: 25px;
+  text-shadow: #78807d -1px 2px;
+  /*visuales*/
+  color: white;
+  background-color: #8fcaca;
+  border: solid #b6cfb6 4px;
+}
+
+main {
+  background-color: #cce2cb;
+}
+aside {
+  /*box model*/
+
+  background-color: #c6dbc6;
+  border: solid #a2e1db 4px;
+}
+
+.div {
+  margin: 10px;
+}
+.rebaja {
+  height: 100px;
+  width: auto;
+}
+.precios__imagenes {
+  height: 200px;
+  width: auto;
+  border: solid gray 1px;
+}
+
+.precios__textos {
+  /*texto*/
+  font-family: "Oswald";
+  font-size: 14px;
+  text-align: center;
+  /*visuales*/
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.precios__valor {
+  font-family: "Oswald";
+  font-size: 14px;
+  text-align: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* === pagina ropa === */
+.descuentos__precios {
+  height: 200px;
+  width: 150px;
+  border: solid gray 1px;
+}
+.descuentos__h2 {
+  /*box model*/
+  height: 60px;
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  /*texto*/
+  font-family: "Open Sans";
+  font-size: 16px;
+  text-align: center;
+  text-shadow: -1px 2px #b6cfb6;
+  /*visual*/
+  color: white;
+  background-color: #ff8c94;
+  border: dashed #ef70aa 3px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+div {
+  margin: 10px;
+}
+
+aside {
+  background-color: #c6dbc6;
+}
+.descuentos__texto {
+  /*texto*/
+  font-family: "Oswald";
+  text-align: center;
+  /*visuales*/
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.descuentos__valor {
+  font-family: "Oswald";
+  text-align: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.monto__precio {
+  /*box model*/
+  width: 150px;
+  height: 40px;
+  /*texto*/
+  font-family: Tungsten-Bold;
+  font-size: 16px;
+  /*visuales*/
+  color: #85006a;
+  background-image: url("./imagenes/fondo-barra.jpg");
+  background-size: cover;
+}
+.descuento__rebaja {
+  height: 100px;
+  width: auto;
+}
+/* === pagina calzado === */
+.vestir {
+  /*box model*/
+  width: 280px;
+  padding: 5px;
+  margin: 15px;
+  /*texto*/
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  /*visual*/
+  background-color: #cbaacb;
+  border: solid #a30f94 2px;
+  text-shadow: #78807d -1px 2px;
+}
+
+.deportivas {
+  /*box model*/
+  width: 280px;
+  padding: 5px;
+  margin: 15px;
+  /*texto*/
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  /*visuales*/
+  background-color: #f3b0c3;
+  border: solid #ff7994 2px;
+  text-shadow: #78807d -1px 2px;
+}
+
+.vestir__imagenes {
+  /*box model*/
+  height: 200px;
+  margin: 5px;
+  /*visuales*/
+  border: solid gray 1px;
+}
+
+.deportivas__imagenes {
+  /*visuales*/
+  height: 200px;
+  border: solid gray 1px;
+}
+
+.vestir__texto {
+  /*texto*/
+  font-family: "Oswald";
+  text-align: center;
+  /*visuales*/
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.vestir__precio {
+  /*texto*/
+  font-family: "Oswald";
+  text-align: center;
+  /*visuales*/
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.deportivas__texto {
+  /*texto*/
+  font-family: "Oswald";
+  font-size: 12px;
+  text-align: center;
+  /*visuales*/
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.deportivas__precio {
+  /*texto*/
+  font-family: "Oswald";
+  font-size: 12px;
+  text-align: center;
+  /*visuales*/
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+select {
+  /*box model*/
+  height: 40px;
+  width: 150px;
+  margin: 5px;
+  /*texto*/
+  font-size: 14px;
+  text-align: center;
+  color: #b4dadb;
+  /*visuales*/
+  background-image: url("./imagenes/Orange-Coral.jpg");
+  background-size: cover;
+  border: solid #635950 2px;
+  text-shadow: #78807d -1px 2px;
+}
+
+option {
+  background-color: #ff968a;
+}
+
+/* === pagina hombre === */
+header {
+  background-color: #d4f0f0;
+}
+.header__logo {
+  /*box model*/
+  height: 80px;
+}
+.header__buscar {
+  /*position*/
+  position: relative;
+  bottom: 60px;
+  right: 50px;
+  /*box model*/
+  padding: 0 20px;
+  height: 30px;
+  /*texto*/
+  font-size: 10px;
+  /*visuales*/
+  border: solid #d4f0f0 2px;
+  border-radius: 30px;
+}
+.header__iconos {
+  /*position*/
+  position: relative;
+  bottom: 55px;
+  right: 75px;
+  height: 20px;
+}
+.header__iconos--compras {
+  /*position*/
+  position: relative;
+  bottom: 56px;
+  right: 40px;
+  height: 20px;
+}
+a {
+  /*texto*/
+  font-size: 12px;
+  /*visuales*/
+  text-decoration: none;
+  color: grey;
+}
+li {
+  border-radius: 3px;
+}
+ul li {
+  /*box model*/
+  width: 70px;
+  /*texto*/
+  text-align: center;
+  /*visuales*/
+  border: solid #79bf34 2px;
+  background-color: #a4e887;
+  list-style: none;
+}
+/*varios*/
+ul li :hover {
+  /*visuales*/
+  color: #e8eded;
+  background-color: #18db46;
+}
+
+.imagenes__hombre {
+  /*box model*/
+  height: 200px;
+  margin: 5px;
+  /*visuales*/
+  border: solid gray 1px;
+}
+
+.texto__hombre {
+  /*texto*/
+  font-family: "Oswald";
+  font-size: 12px;
+  text-align: center;
+  /*visuales*/
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.valor__hombre {
+  /*texto*/
+  font-family: "Oswald";
+  font-size: 12px;
+  text-align: center;
+  /*visuales*/
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.colorHombre {
+  /*box model*/
+  height: 75px;
+  width: 165px;
+  padding: 5px;
+  margin: 5px;
+  /*texto*/
+  font-size: 12px;
+  text-align: center;
+  color: #7c09ad;
+  /*visuales*/
+  background-color: #13d497;
+  border: solid #0e966b 2px;
+  box-shadow: 12px 6px 16px 8px rgba(94, 80, 80, 0.56);
+}
+
+.colorHombre__h3 {
+  /*box model*/
+  margin: 5px;
+  /*texto*/
+  font-family: Tungsten-Bold;
+  font-size: 20px;
+  text-shadow: #78807d -1px 2px;
+}
+
+.tallesHombre_select {
+  /*box model*/
+  height: 35px;
+  width: 145px;
+  margin: 5px;
+  /*texto*/
+  font-family: Tungsten-Bold;
+  font-size: 20px;
+  text-align: center;
+  color: #b4dadb;
+  text-shadow: black -1px 2px;
+  /*visuales*/
+  background-image: url("./imagenes/Alive.jpg");
+  background-size: cover;
+  border: solid #635950 2px;
+}
+.section__hombre {
+  background-color: #beede5;
+}
+footer {
+  /*visuales*/
+  background-color: #b6cfb6;
+  border: solid #c4c2bc 6px;
+}
+.footer__h4 {
+  /*texto*/
+  font-size: 14px;
+}
+
+.footer__redes {
+  /*box model*/
+  height: 30px;
+}
+
+.footer__a--wsp {
+  /*box model*/
+  height: 34px;
+}
+.footer__a--ubicacion {
+  /*box model*/
+  height: 34px;
+}
+.footer__parrafo {
+  /*texto*/
+
+  text-align: right;
+}
+.footer__ubicacion {
+  /*box model*/
+  height: 50px;
+  width: 100px;
+  /*texto*/
+  text-align: left;
+}
+.footer__ubicacion--2 {
+  /*texto*/
+  text-align: left;
+}
+
+/* === pagina mujer === */
+header {
+  background-color: #d4f0f0;
+}
+.header__logo {
+  /*box model*/
+  height: 80px;
+}
+.header__buscar {
+  /*position*/
+  position: relative;
+  bottom: 60px;
+  right: 50px;
+  /*box model*/
+  padding: 0 20px;
+  height: 30px;
+  /*texto*/
+  font-size: 10px;
+  /*visuales*/
+  border: solid #d4f0f0 2px;
+  border-radius: 30px;
+}
+.header__iconos {
+  /*position*/
+  position: relative;
+  bottom: 55px;
+  right: 75px;
+  height: 20px;
+}
+.header__iconos--compras {
+  /*position*/
+  position: relative;
+  bottom: 56px;
+  right: 40px;
+  height: 20px;
+}
+a {
+  /*texto*/
+  font-size: 12px;
+  /*visuales*/
+  text-decoration: none;
+  color: grey;
+}
+li {
+  border-radius: 3px;
+}
+ul li {
+  /*box model*/
+  width: 70px;
+  /*texto*/
+  text-align: center;
+  /*visuales*/
+  border: solid #79bf34 2px;
+  background-color: #a4e887;
+  list-style: none;
+}
+/*varios*/
+ul li :hover {
+  /*visuales*/
+  color: #e8eded;
+  background-color: #18db46;
+}
+
+.imagenes__mujer {
+  /*box model*/
+  height: 200px;
+  margin: 5px;
+  /*visuales*/
+  border: solid gray 1px;
+}
+
+.texto__mujer {
+  /*texto*/
+  font-family: "Oswald";
+  font-size: 12px;
+  text-align: center;
+  /*visuales*/
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.valor__mujer {
+  /*texto*/
+  font-family: "Oswald";
+  font-size: 12px;
+  text-align: center;
+  /*visuales*/
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.colorMujer {
+  /*box model*/
+  height: 75px;
+  width: 165px;
+  padding: 5px;
+  margin: 5px;
+  /*texto*/
+  font-size: 12px;
+  text-align: center;
+  color: #7c09ad;
+  /*visuales*/
+  background-color: #13d497;
+  border: solid #0e966b 2px;
+  box-shadow: 12px 6px 16px 8px rgba(94, 80, 80, 0.56);
+}
+
+.colorMujer__h3 {
+  /*box model*/
+  margin: 5px;
+  /*texto*/
+  font-family: Tungsten-Bold;
+  font-size: 20px;
+  text-shadow: #78807d -1px 2px;
+}
+
+.tallesMujer_select {
+  /*box model*/
+  height: 35px;
+  width: 145px;
+  margin: 5px;
+  /*texto*/
+  font-family: Tungsten-Bold;
+  font-size: 20px;
+  text-align: center;
+  color: #b4dadb;
+  text-shadow: black -1px 2px;
+  /*visuales*/
+  background-image: url("./imagenes/Alive.jpg");
+  background-size: cover;
+  border: solid #635950 2px;
+}
+.section__mujer {
+  background-color: #beede5;
+}
+footer {
+  /*visuales*/
+  background-color: #b6cfb6;
+  border: solid #c4c2bc 6px;
+}
+.footer__h4 {
+  /*texto*/
+  font-size: 14px;
+}
+
+.footer__redes {
+  /*box model*/
+  height: 30px;
+}
+
+.footer__a--wsp {
+  /*box model*/
+  height: 34px;
+}
+.footer__a--ubicacion {
+  /*box model*/
+  height: 34px;
+}
+.footer__parrafo {
+  /*texto*/
+
+  text-align: right;
+}
+.footer__ubicacion {
+  /*box model*/
+  height: 50px;
+  width: 100px;
+  /*texto*/
+  text-align: left;
+}
+.footer__ubicacion--2 {
+  /*texto*/
+  text-align: left;
+}
+
+/* ======== Flex Box ======== */
+/* === pagina index === */
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.header__div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.precios {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+}
+aside {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+/* === pagina ropa === */
+.descuentos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+/* === pagina ropa === */
+.div__vestir {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.div__deportiva {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+/* pagina hombre*/
+.section__hombre--2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+/* pagina mujer*/
+.section__mujer--2 {
+  display: flex;
+  flex-flow: row wrap;
+}
+/* === pagina hombre === */
+.section__hombre--2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.section__hombre {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+/* === pagina mujer === */
+.section__mujer--2 {
+  display: flex;
+  flex-flow: row wrap;
+}
+.section__mujer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+/* ======== Grid Areas Layout ======== */
+/* === pagina index === */
+.body__index {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "aside"
+    "footer";
+  grid-template-columns: 100%;
+}
+.header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+}
+.footer {
+  grid-area: footer;
+}
+/* === pagina ropa === */
+.body__ropa {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "aside"
+    "footer";
+  grid-template-columns: 100%;
+}
+.header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+}
+.footer {
+  grid-area: footer;
+}
+
+/* === pagina calzados === */
+.body__calzados {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "aside"
+    "footer";
+  grid-template-columns: 100%;
+}
+.header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+}
+.footer {
+  grid-area: footer;
+}
+
+/* === pagina hombre === */
+.body__hombre {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "section"
+    "aside"
+    "footer";
+  grid-template-columns: 100%;
+}
+.header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+.section__hombre {
+  grid-area: section;
+}
+
+aside {
+  grid-area: aside;
+}
+
+.footer {
+  grid-area: footer;
+}
+/* === pagina mujer === */
+.body__mujer {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "section"
+    "aside"
+    "footer";
+  grid-template-columns: 100%;
+}
+.header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+.section__mujer {
+  grid-area: section;
+}
+
+aside {
+  grid-area: aside;
+}
+
+.footer {
+  grid-area: footer;
+}
+/* ==================  TABLETS ==================  */
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  /* ======== Estilos Generales ======== */
+
+  /* === pagina index === */
+  .header {
+    background-color: #d4f0f0;
+  }
+
+  .header__logo {
+    /*box model*/
+    height: 150px;
+  }
+  .header__buscar {
+    /*position*/
+    position: relative;
+    bottom: 100px;
+    right: 50px;
+    /*box model*/
+    padding: 0 10px;
+    height: 38px;
+    /*texto*/
+    font-size: 18px;
+    /*visuales*/
+    border: solid #d4f0f0 2px;
+    border-radius: 30px;
+  }
+  .header__iconos {
+    /*position*/
+    position: relative;
+    bottom: 95px;
+    right: 85px;
+    height: 30px;
+  }
+  .header__iconos--compras {
+    /*position*/
+    position: relative;
+    bottom: 100px;
+    right: 40px;
+    height: 35px;
+  }
+  a {
+    /*texto*/
+    font-size: 15px;
+    /*visuales*/
+    text-decoration: none;
+    color: grey;
+  }
+  li {
+    border-radius: 3px;
+  }
+  ul li {
+    /*box model*/
+    width: 150px;
+    /*texto*/
+    text-align: center;
+    /*visuales*/
+    border: solid #79bf34 2px;
+    background-color: #a4e887;
+    list-style: none;
+  }
+
+  /*varios*/
+  ul li :hover {
+    /*visuales*/
+    color: #e8eded;
+    background-color: #18db46;
+  }
+
+  .header__h1 {
+    /*box model*/
+    padding: 35px;
+    width: 99%;
+    margin: 5px;
+    /*texto*/
+    font-family: "Chackra Petch";
+    text-align: center;
+    font-size: 40px;
+    text-shadow: #78807d -1px 2px;
+    /*visuales*/
+    color: white;
+    background-color: #8fcaca;
+    border: solid #b6cfb6 4px;
+  }
+
+  main {
+    background-color: #cce2cb;
+  }
+  aside {
+    background-color: #c6dbc6;
+  }
+
+  .footer {
+    /*visuales*/
+    background-color: #b6cfb6;
+    border: solid #c4c2bc 6px;
+  }
+  .footer__h4 {
+    /*position*/
+
+    /*texto*/
+    font-size: 12px;
+  }
+
+  .footer__redes {
+    /*box model*/
+    height: 35px;
+  }
+
+  .footer__a--wsp {
+    /*box model*/
+    height: 36px;
+  }
+  .footer__a--ubicacion {
+    /*box model*/
+    height: 36px;
+  }
+  .footer__parrafo {
+    /*texto*/
+
+    text-align: right;
+  }
+  .footer__ubicacion {
+    /*box model*/
+    height: 50px;
+    width: 100px;
+    /*texto*/
+    text-align: left;
+  }
+  .footer__ubicacion--2 {
+    /*texto*/
+    text-align: left;
+  }
+
+  .div {
+    margin: 10px;
+  }
+  .rebaja {
+    height: 100px;
+  }
+  .precios__imagenes {
+    height: 250px;
+    width: auto;
+    border: solid gray 1px;
+  }
+
+  .precios__textos {
+    /*texto*/
+    font-family: "Oswald";
+    text-align: center;
+    /*visuales*/
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .precios__valor {
+    font-family: "Oswald";
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  /* === pagina ropa === */
+  .descuentos__precios {
+    height: 200px;
+    width: 150px;
+    border: solid gray 1px;
+  }
+  .descuentos__h2 {
+    /*box model*/
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    /*texto*/
+    font-family: "Open Sans";
+    font-size: 16px;
+    text-align: center;
+    text-shadow: -1px 2px #b6cfb6;
+    /*visual*/
+    color: white;
+    background-color: #ff8c94;
+    border: dashed #ef70aa 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  div {
+    margin: 10px;
+  }
+
+  aside {
+    background-color: #c6dbc6;
+  }
+  .descuentos__texto {
+    /*texto*/
+    font-family: "Oswald";
+    text-align: center;
+    /*visuales*/
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .descuentos__valor {
+    font-family: "Oswald";
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .monto__precio {
+    /*box model*/
+    width: 150px;
+    height: 40px;
+    /*texto*/
+    font-family: Tungsten-Bold;
+    font-size: 16px;
+    /*visuales*/
+    color: #85006a;
+    background-image: url("./imagenes/fondo-barra.jpg");
+    background-size: cover;
+  }
+  .descuento__rebaja {
+    height: 100px;
+    width: auto;
+  }
+  /* === pagina hombre === */
+  header {
+    background-color: #d4f0f0;
+  }
+  .header__logo {
+    /*box model*/
+    height: 80px;
+  }
+  .header__buscar {
+    /*position*/
+    position: relative;
+    bottom: 60px;
+    right: 50px;
+    /*box model*/
+    padding: 0 20px;
+    height: 30px;
+    /*texto*/
+    font-size: 10px;
+    /*visuales*/
+    border: solid #d4f0f0 2px;
+    border-radius: 30px;
+  }
+  .header__iconos {
+    /*position*/
+    position: relative;
+    bottom: 55px;
+    right: 75px;
+    height: 20px;
+  }
+  .header__iconos--compras {
+    /*position*/
+    position: relative;
+    bottom: 56px;
+    right: 40px;
+    height: 20px;
+  }
+  a {
+    /*texto*/
+    font-size: 12px;
+    /*visuales*/
+    text-decoration: none;
+    color: grey;
+  }
+  li {
+    border-radius: 3px;
+  }
+  ul li {
+    /*box model*/
+    width: 70px;
+    /*texto*/
+    text-align: center;
+    /*visuales*/
+    border: solid #79bf34 2px;
+    background-color: #a4e887;
+    list-style: none;
+  }
+  /*varios*/
+  ul li :hover {
+    /*visuales*/
+    color: #e8eded;
+    background-color: #18db46;
+  }
+
+  .imagenes__hombre {
+    /*box model*/
+    height: 250px;
+    margin: 5px;
+    /*visuales*/
+    border: solid gray 1px;
+  }
+
+  .texto__hombre {
+    /*texto*/
+    font-family: "Oswald";
+    font-size: 12px;
+    text-align: center;
+    /*visuales*/
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .valor__hombre {
+    /*texto*/
+    font-family: "Oswald";
+    font-size: 12px;
+    text-align: center;
+    /*visuales*/
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .colorHombre {
+    /*box model*/
+    height: 80px;
+    width: 180px;
+    padding: 5px;
+    margin: 5px;
+    /*texto*/
+    font-size: 12px;
+    text-align: center;
+    color: #7c09ad;
+    /*visuales*/
+    background-color: #13d497;
+    border: solid #0e966b 2px;
+    box-shadow: 12px 6px 16px 8px rgba(94, 80, 80, 0.56);
+  }
+
+  .colorHombre__h3 {
+    /*box model*/
+    margin: 5px;
+    /*texto*/
+    font-family: Tungsten-Bold;
+    font-size: 22px;
+    text-shadow: #78807d -1px 2px;
+  }
+
+  .tallesHombre_select {
+    /*box model*/
+    height: 40px;
+    width: 150px;
+    margin: 5px;
+    /*texto*/
+    font-family: Tungsten-Bold;
+    font-size: 22px;
+    text-align: center;
+    color: #b4dadb;
+    text-shadow: black -1px 2px;
+    /*visuales*/
+    background-image: url("./imagenes/Alive.jpg");
+    background-size: cover;
+    border: solid #635950 2px;
+  }
+  .section__hombre {
+    background-color: #beede5;
+  }
+  footer {
+    /*visuales*/
+    background-color: #b6cfb6;
+    border: solid #c4c2bc 6px;
+  }
+  .footer__h4 {
+    /*texto*/
+    font-size: 14px;
+  }
+
+  .footer__redes {
+    /*box model*/
+    height: 30px;
+  }
+
+  .footer__a--wsp {
+    /*box model*/
+    height: 34px;
+  }
+  .footer__a--ubicacion {
+    /*box model*/
+    height: 34px;
+  }
+  .footer__parrafo {
+    /*texto*/
+
+    text-align: right;
+  }
+  .footer__ubicacion {
+    /*box model*/
+    height: 50px;
+    width: 100px;
+    /*texto*/
+    text-align: left;
+  }
+  .footer__ubicacion--2 {
+    /*texto*/
+    text-align: left;
+  }
+  /* === pagina mujer === */
+  header {
+    background-color: #d4f0f0;
+  }
+  .header__logo {
+    /*box model*/
+    height: 80px;
+  }
+  .header__buscar {
+    /*position*/
+    position: relative;
+    bottom: 60px;
+    right: 50px;
+    /*box model*/
+    padding: 0 20px;
+    height: 30px;
+    /*texto*/
+    font-size: 10px;
+    /*visuales*/
+    border: solid #d4f0f0 2px;
+    border-radius: 30px;
+  }
+  .header__iconos {
+    /*position*/
+    position: relative;
+    bottom: 55px;
+    right: 75px;
+    height: 20px;
+  }
+  .header__iconos--compras {
+    /*position*/
+    position: relative;
+    bottom: 56px;
+    right: 40px;
+    height: 20px;
+  }
+  a {
+    /*texto*/
+    font-size: 12px;
+    /*visuales*/
+    text-decoration: none;
+    color: grey;
+  }
+  li {
+    border-radius: 3px;
+  }
+  ul li {
+    /*box model*/
+    width: 70px;
+    /*texto*/
+    text-align: center;
+    /*visuales*/
+    border: solid #79bf34 2px;
+    background-color: #a4e887;
+    list-style: none;
+  }
+  /*varios*/
+  ul li :hover {
+    /*visuales*/
+    color: #e8eded;
+    background-color: #18db46;
+  }
+
+  .imagenes__mujer {
+    /*box model*/
+    height: 250px;
+    margin: 5px;
+    /*visuales*/
+    border: solid gray 1px;
+  }
+
+  .texto__mujer {
+    /*texto*/
+    font-family: "Oswald";
+    font-size: 12px;
+    text-align: center;
+    /*visuales*/
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .valor__mujer {
+    /*texto*/
+    font-family: "Oswald";
+    font-size: 12px;
+    text-align: center;
+    /*visuales*/
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .colorMujer {
+    /*box model*/
+    height: 80px;
+    width: 180px;
+    padding: 5px;
+    margin: 5px;
+    /*texto*/
+    font-size: 12px;
+    text-align: center;
+    color: #7c09ad;
+    /*visuales*/
+    background-color: #13d497;
+    border: solid #0e966b 2px;
+    box-shadow: 12px 6px 16px 8px rgba(94, 80, 80, 0.56);
+  }
+
+  .colorMujer__h3 {
+    /*box model*/
+    margin: 5px;
+    /*texto*/
+    font-family: Tungsten-Bold;
+    font-size: 22px;
+    text-shadow: #78807d -1px 2px;
+  }
+
+  .tallesMujer_select {
+    /*box model*/
+    height: 40px;
+    width: 150px;
+    margin: 5px;
+    /*texto*/
+    font-family: Tungsten-Bold;
+    font-size: 22px;
+    text-align: center;
+    color: #b4dadb;
+    text-shadow: black -1px 2px;
+    /*visuales*/
+    background-image: url("./imagenes/Alive.jpg");
+    background-size: cover;
+    border: solid #635950 2px;
+  }
+  .section__mujer {
+    background-color: #beede5;
+  }
+  footer {
+    /*visuales*/
+    background-color: #b6cfb6;
+    border: solid #c4c2bc 6px;
+  }
+  .footer__h4 {
+    /*texto*/
+    font-size: 14px;
+  }
+
+  .footer__redes {
+    /*box model*/
+    height: 30px;
+  }
+
+  .footer__a--wsp {
+    /*box model*/
+    height: 34px;
+  }
+  .footer__a--ubicacion {
+    /*box model*/
+    height: 34px;
+  }
+  .footer__parrafo {
+    /*texto*/
+
+    text-align: right;
+  }
+  .footer__ubicacion {
+    /*box model*/
+    height: 50px;
+    width: 100px;
+    /*texto*/
+    text-align: left;
+  }
+  .footer__ubicacion--2 {
+    /*texto*/
+    text-align: left;
+  }
+  /* ======== Flex Box ======== */
+  /* === pagina index === */
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .header__div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .precios {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .h4 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: right;
+    align-items: flex-end;
+  }
+  .lugar {
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: flex-start;
+  }
+  .redes {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+  .contactos {
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+    align-items: flex-end;
+  }
+  /* === pagina ropa === */
+  .descuentos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  /* === pagina hombre === */
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .header__div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .section__hombre--2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  /* === pagina mujer === */
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .header__div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .section__mujer--2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  /* ======== Grid Areas Layout ======== */
+  /* === pagina index === */
+  .body__index {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "main aside"
+      "footer footer";
+    grid-template-columns: 80% 20%;
+    grid-template-rows: auto auto auto;
+  }
+  .header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  aside {
+    grid-area: aside;
+  }
+  .footer {
+    grid-area: footer;
+  }
+  /* === pagina ropa === */
+  .body__ropa {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "main aside"
+      "footer footer";
+    grid-template-columns: 80% 20%;
+    grid-template-rows: auto auto auto;
+  }
+  .header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  aside {
+    grid-area: aside;
+  }
+  .footer {
+    grid-area: footer;
+  }
+  /* === pagina calzado === */
+  .body__calzados {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "main aside"
+      "footer footer";
+    grid-template-columns: 80% 20%;
+    grid-template-rows: auto auto auto;
+  }
+  .header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  aside {
+    grid-area: aside;
+  }
+  .footer {
+    grid-area: footer;
+  }
+
+  /* === pagina hombre === */
+  .body__hombre {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "main aside"
+      "section section"
+      "footer footer";
+    grid-template-columns: 80% 20%;
+    grid-template-rows: auto 78% auto;
+  }
+  .header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+  .section__hombre {
+    grid-area: section;
+  }
+  aside {
+    grid-area: aside;
+  }
+  .footer {
+    grid-area: footer;
+  }
+  /* === pagina mujer === */
+  .body__mujer {
+    display: grid;
+    grid-template-areas:
+      "header header"
+      "main aside"
+      "section section"
+      "footer footer";
+    grid-template-columns: 80% 20%;
+    grid-template-rows: auto 78% auto;
+  }
+  .header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+  .section__mujer {
+    grid-area: section;
+  }
+  aside {
+    grid-area: aside;
+  }
+  .footer {
+    grid-area: footer;
+  }
+}
+
+/* ==================  DESKTOP ================== */
+@media (min-width: 1024px) {
+  /* ======== Estilos Generales ======== */
+  /* === pagina index === */
+  .header {
+    background-color: #d4f0f0;
+  }
+
+  .header__logo {
+    /*box model*/
+    height: 200px;
+  }
+  .header__buscar {
+    /*position*/
+    position: relative;
+    bottom: 100px;
+    right: 50px;
+    /*box model*/
+    padding: 0 20px;
+    height: 40px;
+    /*texto*/
+    font-size: 18px;
+    /*visuales*/
+    border: solid #d4f0f0 2px;
+    border-radius: 30px;
+  }
+  .header__iconos {
+    /*position*/
+    position: relative;
+    bottom: 95px;
+    right: 85px;
+    height: 30px;
+  }
+  .header__iconos--compras {
+    /*position*/
+    position: relative;
+    bottom: 100px;
+    right: 40px;
+    height: 45px;
+  }
+  a {
+    /*texto*/
+    font-size: 18px;
+    /*visuales*/
+    text-decoration: none;
+    color: grey;
+  }
+  li {
+    border-radius: 3px;
+  }
+  ul li {
+    /*box model*/
+    width: 150px;
+    /*texto*/
+    text-align: center;
+    /*visuales*/
+    border: solid #79bf34 2px;
+    background-color: #a4e887;
+    list-style: none;
+  }
+
+  /*varios*/
+  ul li :hover {
+    /*visuales*/
+    color: #e8eded;
+    background-color: #18db46;
+  }
+
+  .header__h1 {
+    /*box model*/
+    padding: 40px;
+    width: 99%;
+    margin: 5px;
+    /*texto*/
+    font-family: "Chackra Petch";
+    text-align: center;
+    font-size: 45px;
+    text-shadow: #78807d -1px 2px;
+    /*visuales*/
+    color: white;
+    background-color: #8fcaca;
+    border: solid #b6cfb6 4px;
+  }
+
+  main {
+    background-color: #cce2cb;
+  }
+  aside {
+    background-color: #c6dbc6;
+  }
+
+  .footer {
+    /*visuales*/
+    background-color: #b6cfb6;
+    border: solid #c4c2bc 6px;
+  }
+  .footer__h4 {
+    /*position*/
+
+    /*texto*/
+    font-size: 14px;
+  }
+
+  .footer__redes {
+    /*box model*/
+    height: 45px;
+  }
+
+  .footer__a--wsp {
+    /*box model*/
+    height: 36px;
+  }
+  .footer__a--ubicacion {
+    /*box model*/
+    height: 36px;
+  }
+  .footer__parrafo {
+    /*texto*/
+
+    text-align: right;
+  }
+  .footer__ubicacion {
+    /*box model*/
+    height: 50px;
+    width: 100px;
+    /*texto*/
+    text-align: left;
+  }
+  .footer__ubicacion--2 {
+    /*texto*/
+    text-align: left;
+  }
+
+  .div {
+    margin: 10px;
+  }
+  .rebaja {
+    height: 150px;
+    width: 200px;
+  }
+  .precios__imagenes {
+    height: 400px;
+    width: auto;
+    border: solid gray 1px;
+  }
+
+  .precios__textos {
+    /*texto*/
+    font-family: "Oswald";
+    text-align: center;
+    /*visuales*/
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .precios__valor {
+    font-family: "Oswald";
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  /* === pagina ropa === */
+  .descuentos__precios {
+    height: 300px;
+    width: auto;
+    border: solid gray 1px;
+  }
+  .descuentos__h2 {
+    /*box model*/
+    height: 50px;
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    /*texto*/
+    font-family: "Open Sans";
+    text-align: center;
+    text-shadow: -1px 2px #b6cfb6;
+    /*visual*/
+    color: white;
+    background-color: #ff8c94;
+    border: dashed #ef70aa 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  div {
+    margin: 10px;
+  }
+  .footerRopa__redes {
+    /*box model*/
+    height: 45px;
+  }
+
+  .footerRopa__a--wsp {
+    /*box model*/
+    height: 36px;
+  }
+  .footerRopa__a--ubicacion {
+    /*box model*/
+    height: 36px;
+  }
+  aside {
+    background-color: #c6dbc6;
+  }
+  .descuentos__texto {
+    /*texto*/
+    font-family: "Oswald";
+    text-align: center;
+    /*visuales*/
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .descuentos__valor {
+    font-family: "Oswald";
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .monto__precio {
+    /*box model*/
+    width: 250px;
+    height: 50px;
+    /*texto*/
+    font-family: Tungsten-Bold;
+    font-size: 20px;
+    /*visuales*/
+    color: #85006a;
+    background-image: url("./imagenes/fondo-barra.jpg");
+    background-size: cover;
+  }
+  /* === pagina calzado === */
+  .vestir {
+    /*box model*/
+    width: 400px;
+    padding: 5px;
+    margin: 15px;
+    /*texto*/
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    /*visual*/
+    background-color: #cbaacb;
+    border: solid #a30f94 2px;
+    text-shadow: #78807d -1px 2px;
+  }
+
+  .deportivas {
+    /*box model*/
+    width: 400px;
+    padding: 5px;
+    margin: 15px;
+    /*texto*/
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    /*visuales*/
+    background-color: #f3b0c3;
+    border: solid #ff7994 2px;
+    text-shadow: #78807d -1px 2px;
+  }
+
+  .vestir__imagenes {
+    /*box model*/
+    height: 400px;
+    margin: 5px;
+    /*visuales*/
+    border: solid gray 1px;
+  }
+
+  .deportivas__imagenes {
+    /*visuales*/
+    height: 400px;
+    border: solid gray 1px;
+  }
+
+  .vestir__texto {
+    /*texto*/
+    font-family: "Oswald";
+    text-align: center;
+    /*visuales*/
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .vestir__precio {
+    /*texto*/
+    font-family: "Oswald";
+    text-align: center;
+    /*visuales*/
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .deportivas__texto {
+    /*texto*/
+    font-family: "Oswald";
+    text-align: center;
+    /*visuales*/
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .deportivas__precio {
+    /*texto*/
+    font-family: "Oswald";
+    text-align: center;
+    /*visuales*/
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  select {
+    /*box model*/
+    height: 50px;
+    width: 250px;
+    margin: 5px;
+    /*texto*/
+    font-size: 20px;
+    text-align: center;
+    color: #b4dadb;
+    /*visuales*/
+    background-image: url("./imagenes/Orange-Coral.jpg");
+    background-size: cover;
+    border: solid #635950 2px;
+    text-shadow: #78807d -1px 2px;
+  }
+
+  option {
+    background-color: #ff968a;
+  }
+  /**/
+  .vestir {
+    /*box model*/
+    width: 400px;
+    padding: 5px;
+    margin: 15px;
+    /*texto*/
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    /*visual*/
+    background-color: #cbaacb;
+    border: solid #a30f94 2px;
+    text-shadow: #78807d -1px 2px;
+  }
+
+  .deportivas {
+    /*box model*/
+    width: 400px;
+    padding: 5px;
+    margin: 15px;
+    /*texto*/
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    /*visuales*/
+    background-color: #f3b0c3;
+    border: solid #ff7994 2px;
+    text-shadow: #78807d -1px 2px;
+  }
+
+  .vestir__imagenes {
+    /*box model*/
+    height: 400px;
+    margin: 5px;
+    /*visuales*/
+    border: solid gray 1px;
+  }
+
+  .deportivas__imagenes {
+    /*visuales*/
+    height: 400px;
+    border: solid gray 1px;
+  }
+
+  .vestir__texto {
+    /*texto*/
+    font-family: "Oswald";
+    text-align: center;
+    /*visuales*/
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .vestir__precio {
+    /*texto*/
+    font-family: "Oswald";
+    text-align: center;
+    /*visuales*/
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .deportivas__texto {
+    /*texto*/
+    font-family: "Oswald";
+    text-align: center;
+    /*visuales*/
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .deportivas__precio {
+    /*texto*/
+    font-family: "Oswald";
+    text-align: center;
+    /*visuales*/
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  select {
+    /*box model*/
+    height: 50px;
+    width: 250px;
+    margin: 5px;
+    /*texto*/
+    font-size: 20px;
+    text-align: center;
+    color: #b4dadb;
+    /*visuales*/
+    background-image: url("./imagenes/Orange-Coral.jpg");
+    background-size: cover;
+    border: solid #635950 2px;
+    text-shadow: #78807d -1px 2px;
+  }
+
+  option {
+    background-color: #ff968a;
+  }
+
+  /* === pagina hombre === */
+  .imagenes__hombre {
+    /*box model*/
+    height: 400px;
+    margin: 5px;
+    /*visuales*/
+    border: solid gray 1px;
+  }
+
+  .texto__hombre {
+    /*texto*/
+    font-family: "Oswald";
+    text-align: center;
+    /*visuales*/
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .valor__hombre {
+    /*texto*/
+    font-family: "Oswald";
+    text-align: center;
+  }
+
+  .colorHombre {
+    /*box model*/
+    height: 100px;
+    width: 250px;
+    padding: 5px;
+    margin: 10px;
+    /*texto*/
+    text-align: center;
+    color: #7c09ad;
+    /*visuales*/
+    background-color: #13d497;
+    border: solid #0e966b 2px;
+    box-shadow: 12px 6px 16px 8px rgba(94, 80, 80, 0.56);
+  }
+
+  .colorHombre__h3 {
+    /*box model*/
+    margin: 10px;
+    /*texto*/
+    font-family: Tungsten-Bold;
+    font-size: 25px;
+    text-shadow: #78807d -1px 2px;
+  }
+
+  .tallesHombre_select {
+    /*box model*/
+    height: 50px;
+    width: 250px;
+    margin: 10px;
+    /*texto*/
+    font-family: Tungsten-Bold;
+    font-size: 25px;
+    text-align: center;
+    color: #b4dadb;
+    text-shadow: black -1px 2px;
+    /*visuales*/
+    background-image: url("./imagenes/Alive.jpg");
+    background-size: cover;
+    border: solid #635950 2px;
+  }
+  .section__hombre {
+    background-color: #beede5;
+  }
+  /* === pagina mujer === */
+  .imagenes__mujer {
+    /*box model*/
+    height: 400px;
+    margin: 5px;
+    /*visuales*/
+    border: solid gray 1px;
+  }
+
+  .texto__mujer {
+    /*texto*/
+    font-family: "Oswald";
+    text-align: center;
+    /*visuales*/
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .valor__mujer {
+    /*texto*/
+    font-family: "Oswald";
+    text-align: center;
+  }
+
+  .colormujer {
+    /*box model*/
+    height: 100px;
+    width: 250px;
+    padding: 5px;
+    margin: 10px;
+    /*texto*/
+    text-align: center;
+    color: #7c09ad;
+    /*visuales*/
+    background-color: #13d497;
+    border: solid #0e966b 2px;
+    box-shadow: 12px 6px 16px 8px rgba(94, 80, 80, 0.56);
+  }
+
+  .colorMujer__h3 {
+    /*box model*/
+    margin: 10px;
+    /*texto*/
+    font-family: Tungsten-Bold;
+    font-size: 25px;
+    text-shadow: #78807d -1px 2px;
+  }
+
+  .tallesMujer_select {
+    /*box model*/
+    height: 50px;
+    width: 250px;
+    margin: 10px;
+    /*texto*/
+    font-family: Tungsten-Bold;
+    font-size: 25px;
+    text-align: center;
+    color: #b4dadb;
+    text-shadow: black -1px 2px;
+    /*visuales*/
+    background-image: url("./imagenes/Alive.jpg");
+    background-size: cover;
+    border: solid #635950 2px;
+  }
+  .section__mujer {
+    background-color: #beede5;
+  }
+  /* ======== Flex Box ======== */
+
+  /* === pagina ropa === */
+
+  .contenedor__ropa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* === pagina hombre === */
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .header__div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .section__hombre--2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .section__hombre {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+  /* === pagina mujer === */
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .header__div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .section__mujer--2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .section__mujer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+
+  /* ======== Grid Areas Layout ======== */
+  /* === pagina index === */
+  .body__index {
+    display: grid;
+    grid-template-areas:
+      " header header header"
+      "main main aside"
+      " footer footer footer";
+    grid-template-columns: 5% auto 20%;
+  }
+
+  .header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  aside {
+    grid-area: aside;
+  }
+  .footer {
+    grid-area: footer;
+  }
+
+  /* === pagina ropa === */
+  .body__ropa {
+    display: grid;
+    grid-template-areas:
+      " header header header"
+      " main main aside"
+      " footer footer footer";
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: auto 90% auto;
+  }
+
+  .header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+  aside {
+    grid-area: aside;
+  }
+  .footer {
+    grid-area: footer;
+  }
+  /* === pagina calzados === */
+  .body__calzados {
+    display: grid;
+    grid-template-areas:
+      " header header header"
+      " main  main aside"
+      " footer footer footer";
+    grid-template-columns: 5% auto 20%;
+    grid-template-rows: auto 90% 10%;
+  }
+
+  .header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+
+  aside {
+    grid-area: aside;
+  }
+  .footer {
+    grid-area: footer;
+  }
+
+  /* === pagina hombre === */
+  .body__hombre {
+    display: grid;
+    grid-template-areas:
+      " header header header"
+      "section main aside"
+      " footer footer footer";
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: auto 85% auto;
+  }
+
+  .header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+  .section__hombre {
+    grid-area: section;
+  }
+  aside {
+    grid-area: aside;
+  }
+  .footer {
+    grid-area: footer;
+  }
+  /* === pagina mujer === */
+  .body__mujer {
+    display: grid;
+    grid-template-areas:
+      " header header header"
+      "section main aside"
+      " footer footer footer";
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: auto 85% auto;
+  }
+
+  .header {
+    grid-area: header;
+  }
+
+  main {
+    grid-area: main;
+  }
+  .section__mujer {
+    grid-area: section;
+  }
+  aside {
+    grid-area: aside;
+  }
+  .footer {
+    grid-area: footer;
+  }
+}
