@@ -100,8 +100,12 @@ main {
 aside {
   /*box model*/
 
-  background-color: #c6dbc6;
-  border: solid #a2e1db 4px;
+  background: linear-gradient(
+    90deg,
+    rgba(150, 229, 226, 1) 25%,
+    rgba(2, 217, 148, 1) 66%,
+    rgba(207, 234, 228, 1) 100%
+  );
 }
 
 .div {
@@ -132,6 +136,55 @@ aside {
   text-align: center;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/*= transiciones = */
+.header__h1 {
+  transition: width 2s;
+}
+.header__h1:hover {
+  width: 50%;
+}
+.talleZapatillas {
+  transition: width 3s;
+}
+.talleZapatillas {
+  width: 400px;
+}
+/*= tranformaciones=*/
+.rebaja {
+  transform: translate(0px, 500px);
+}
+/*= Animaciones=*/
+.header__logo {
+  animation-name: logo;
+  animation-iteration-count: 1;
+  animation-duration: 5s;
+}
+@keyframes logo {
+  from {
+    transform: translate(-500);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0);
+    opacity: 2;
+  }
+}
+.descuentos__h2 {
+  animation-name: h2;
+  animation-iteration-count: 1;
+  animation-duration: 5s;
+}
+
+@keyframes h2 {
+  from {
+    transform: translate(-500);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0);
+    opacity: 2;
+  }
 }
 /* === pagina ropa === */
 .descuentos__precios {
